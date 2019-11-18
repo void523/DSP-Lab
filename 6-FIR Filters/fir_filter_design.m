@@ -2,11 +2,11 @@
 % General Steps:
 %1. Define alpha as a=(N-1)/2 and n as 0:1:N-1
 %2. Define sinc function as hn=(sin(wc*(n-a)))./(pi*(n-a)
-%3. Defined window function(rectangular, hanning or hamming) as wn
+%3. Define window function(rectangular, hanning or hamming) as wn
 %4. Multiply elementwise hn with wn
-%5. Define w=0:0.01:pi since freqz evaluates response form 0 to pi
-%6. Get fir response using freqz inbuit function
-%7. Plot w vs absolute value of respose got from freqz function
+%5. Define w=0:0.01:pi since freqz evaluates response from 0 to pi
+%6. Get fir response using freqz inbuilt function
+%7. Plot w vs absolute value of response  from freqz function
 N = 60;
 a = (N-1)/2; %alpha
 n = 0:1:N-1;
