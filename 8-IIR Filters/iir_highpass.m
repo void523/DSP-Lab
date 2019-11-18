@@ -7,6 +7,7 @@ fp=0.2;
 fs=0.3;
 ap=3;
 as=15;
+Fs=1;
 nfp=2*fp/Fs;
 nfs=2*fs/Fs;
 [n, nf] = buttord(nfp,nfs,ap,as);
