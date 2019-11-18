@@ -1,4 +1,4 @@
-%Bandpass filter, with f1=100Hz,f2=200Hz,f3=300Hz,f4=400Hz,Fs=1500
+%Bandpass filter, with f1=100Hz,f2=200Hz,f3=400Hz,f4=500Hz,Fs=1500
 %alpha_p = 3db, alpha_s=15dB
 
 fs = [100,500];
